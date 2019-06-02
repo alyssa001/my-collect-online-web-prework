@@ -4,8 +4,8 @@ def my_collect(collection)
   else 
     i = 0
     new_collect = [ ]
-    while i < array.length do 
-      new_array << yield(array[i])
+    while i < collection.length do 
+      new_collect << yield(collection[i])
       i += 1
     end
   end 
